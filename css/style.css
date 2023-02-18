@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.body-index{
+    background-image: url('../multimedia/imagenes/bk-main-index.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* HEADER */
+.contenedor-header{
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* HEADER */
+
+
+/* MAIN INDEX */
+.tarjeta-index{
+    border: 2px solid #473335;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.img-index{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    object-fit: cover;
+    border-radius: 32px;
+}
+.text-index{
+    padding: 20px 0;
+    font-size: 20px;
+}
+.boton{
+    margin-bottom: 10px;
+}
+.boton button{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #548687;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+/* MAIN INDEX */
+
+/* MAIN CONTACTO */
+.main-contacto{
+    background-image: url('../multimedia/imagenes/bk-main-contacto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-contacto__cont1{
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.main-contacto__cont1 p{
+    font-weight: bold;
+}
+.formulario-contacto{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FCAA67;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-outline{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffffff93;
+}
+iframe{
+    width: 100%;
+    height: 600px auto;
+    border-radius: 8px;
+}
+/* MAIN CONTACTO */
+
+/* FOOTER */
+footer{
+    margin-top: 20px;
+}
+/* FOOTER */
