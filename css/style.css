@@ -42,26 +42,6 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    animation-name: animacionTarjetaIndex;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    animation-direction: alternate;
-}
-/* cambio de color - desplazamiento derecha - agrandamiento- */
-@keyframes animacionTarjetaIndex {
-    0%{
-        background-color: #ffffff;
-    }
-    33%{
-        background-color: #548687;
-    }
-    66%{
-        transform: translateX(20px);
-    }
-    100%{
-        transform: scale(0.85);
-    }
 }
 .img-index{
     width: 100%;
@@ -130,38 +110,7 @@
     background-color: #FFFFC7;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    animation-name: animacionTarjetaMenu;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    animation-direction: alternate;
 }
-
-/* esta animacion no representa (ni en lo mas minimo) la version final del producto */
-.tarjeta-producto p{
-    padding: 5px;
-    background-color: #ffffffaf;
-    border-radius: 8px;
-    border: 2px solid #548687;
-}
-@keyframes animacionTarjetaMenu {
-    0%{
-        background-color: #FFFFC7;
-    }
-    16%{
-        transform: rotate(306deg);
-    }
-    48%{
-        background-color: #fcaa67;
-    }
-    80%{
-        transform: translateY(10px);
-    }
-    100%{
-        transform: scale(0.90);
-    }
-}
-/* esta animacion no representa (ni en lo mas minimo) la version final del producto */
 .img-menu{
     padding: 10px 0;
     width: 100%;
