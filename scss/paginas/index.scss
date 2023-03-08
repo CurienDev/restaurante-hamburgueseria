@@ -2,4 +2,40 @@
     background-image: url('../multimedia/imagenes/bk-main-index.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    .tarjeta-index{
+        border: 2px solid #473335;
+        border-radius: 8px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .img-index{
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        object-fit: cover;
+        border-radius: 32px;
+    }
+    .text-index{
+        padding: 20px 0;
+        font-size: 20px;
+    }
+    .boton{
+        margin-bottom: 10px;
+        &:hover {
+            transform: scale(1.25,1.25);
+        }
+    }
+    .boton button{
+        padding: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 2px solid #548687;
+        border-radius: 8px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+    }
 }
