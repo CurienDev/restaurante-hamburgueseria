@@ -1,0 +1,12 @@
+$colores: (
+    color-primario: #548687, 
+    color-secundario: #b0413e, 
+    color-terciario: #ffffc7, 
+    color-cuaternario: #473335
+    );
+
+@each $bk-color-name, $bk-color-valor in $colores{
+    .bk-#{$bk-color-name}{
+        background-color: $bk-color-valor;
+    }
+}

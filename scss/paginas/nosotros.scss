@@ -1,0 +1,21 @@
+
+.img-nosotros{
+    width: 100%;
+    height: auto;
+}
+.p-nosotros{
+    align-content: center;
+}
+.banner{
+    margin-top: 0;
+    .banner__h1{
+        margin: 0 10px 10px 10px !important;
+        background-color: #ffffff;
+        border: 3px solid #0000009f;
+        border-radius: 8px;
+        font-size: 32px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+}

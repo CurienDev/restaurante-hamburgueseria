@@ -10,7 +10,20 @@
 * {
   font-family: 'Nunito', sans-serif; }
 
+.bk-color-primario {
+  background-color: #548687; }
+
+.bk-color-secundario {
+  background-color: #b0413e; }
+
+.bk-color-terciario {
+  background-color: #ffffc7; }
+
+.bk-color-cuaternario {
+  background-color: #473335; }
+
 .contenedor-header {
+  margin-bottom: 0 !important;
   font-size: 18px;
   margin-bottom: 20px;
   padding-top: 20px;
@@ -62,6 +75,25 @@
     border-radius: 8px;
     background-color: #ffffff;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
+
+.img-nosotros {
+  width: 100%;
+  height: auto; }
+
+.p-nosotros {
+  align-content: center; }
+
+.banner {
+  margin-top: 0; }
+  .banner .banner__h1 {
+    margin: 0 10px 10px 10px !important;
+    background-color: #ffffff;
+    border: 3px solid #0000009f;
+    border-radius: 8px;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; }
 
 .body-menu {
   background-image: url("../../multimedia/imagenes/bk-main-menu.jpg");
