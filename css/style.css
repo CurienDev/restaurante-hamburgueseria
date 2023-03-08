@@ -6,58 +6,6 @@
 }
 /* MAIN NOSOTROS */
 
-/* MAIN MENU */
-.container h1{
-    margin: 10px;
-    background-color: #ffffff;
-    border: 3px solid #0000009f;
-    border-radius: 8px;
-    font-size: 32px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-}
-.contenedor-videoNM{
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 2px solid #000000;
-    background-color: #548687;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-}
-.video-menu{
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.tarjeta-producto{
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 24px;
-    background-color: #FFFFC7;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.img-menu{
-    padding: 10px 0;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 32px;
-}
-.btn-pedir{
-    margin-left: 10px;
-    padding: 5px 20px;
-    font-size: 24px;
-    font-weight: bold;
-    background-color: #FCAA67;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.btn-pedir:hover{
-    transform: scale(1.25,1.25);
-}
-/* MAIN MENU */
 
 /* MAIN CONTACTO */
 .main-contacto{
