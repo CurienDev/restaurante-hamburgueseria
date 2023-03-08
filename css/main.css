@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box; }
+
+* {
+  font-family: 'Nunito', sans-serif; }
+
+.contenedor-header {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .contenedor-header .nav-link:hover {
+    transform: scale(1.25, 1.25); }
+  .contenedor-header .navbar-brand:hover {
+    transform: scale(1.25, 1.25); }
+
+.footer {
+  background-color: #ffffc7af;
+  margin-top: 20px; }
+  .footer .btn-social {
+    background-color: #54456b; }
+  .footer .cont-copy {
+    background-color: rgba(0, 0, 0, 0.8); }
+
+.body-index {
+  background-image: url("../multimedia/imagenes/bk-main-index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.body-menu {
+  background-image: url("../multimedia/imagenes/bk-main-menu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }

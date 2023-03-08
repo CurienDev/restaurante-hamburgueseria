@@ -1,0 +1,16 @@
+.contenedor-header {
+	font-size: 18px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    .nav-link {
+        &:hover {
+            transform: scale(1.25,1.25);
+        }
+    }
+    .navbar-brand {
+        &:hover {
+            transform: scale(1.25,1.25);
+        }
+    }
+}
