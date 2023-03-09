@@ -1,5 +1,5 @@
 .footer{
-    background-color: #ffffc7af;
+    background-color: map-get($colores-translucid, color-secundario);
     margin-top: 20px;
     .btn-social{
         background-color: #54456b;

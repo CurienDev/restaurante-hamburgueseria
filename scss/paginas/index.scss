@@ -33,9 +33,9 @@
         padding: 10px;
         font-size: 18px;
         font-weight: bold;
-        border: 2px solid #548687;
+        border: 2px solid map-get($colores, color-secundario);
         border-radius: 8px;
-        background-color: #ffffff;
+        background-color: map-get($colores, color-primario);
         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
     }
 }

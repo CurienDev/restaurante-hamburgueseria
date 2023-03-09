@@ -5,7 +5,7 @@
 }
 .main-contacto__cont1{
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: map-get($colores, color-terciario);
     padding: 20px;
     margin-bottom: 20px;
     p{
@@ -18,14 +18,14 @@
     border-radius: 8px;
     font-size: 24px;
     font-weight: bold;
-    background-color: #FCAA67;
+    background-color: map-get($colores, color-primario);
     display: flex;
     flex-direction: column;
     justify-content: center;
     .form-outline{
         padding: 10px;
         border-radius: 8px;
-        background-color: #ffffff93;
+        background-color: map-get($colores, color-blanco);
     }
 }
 iframe{

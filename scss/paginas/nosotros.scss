@@ -10,7 +10,7 @@
     margin-top: 0;
     .banner__h1{
         margin: 0 10px 10px 10px !important;
-        background-color: #ffffff;
+        background-color: map-get($colores, color-blanco);
         border: 3px solid #0000009f;
         border-radius: 8px;
         font-size: 32px;

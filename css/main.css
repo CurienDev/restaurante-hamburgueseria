@@ -22,6 +22,21 @@
 .bk-color-cuaternario {
   background-color: #473335; }
 
+.bk-color-blanco {
+  background-color: #ffffff; }
+
+.font-zise-16px {
+  font-size: 16px; }
+
+.font-zise-24px {
+  font-size: 24px; }
+
+.font-zise-32px {
+  font-size: 32px; }
+
+.font-zise-40px {
+  font-size: 40px; }
+
 .contenedor-header {
   margin-bottom: 0 !important;
   font-size: 18px;
@@ -34,7 +49,7 @@
     transform: scale(1.25, 1.25); }
 
 .footer {
-  background-color: #ffffc7af;
+  background-color: #b0423e4f;
   margin-top: 20px; }
   .footer .btn-social {
     background-color: #54456b; }
@@ -71,9 +86,9 @@
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    border: 2px solid #548687;
+    border: 2px solid #b0413e;
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: #548687;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
 
 .img-nosotros {
@@ -127,7 +142,7 @@
   padding: 10px;
   margin-bottom: 20px;
   font-size: 24px;
-  background-color: #FFFFC7;
+  background-color: #ffffc7;
   border-radius: 8px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
   .tarjeta-producto .img-menu {
@@ -140,7 +155,7 @@
     padding: 5px 20px;
     font-size: 24px;
     font-weight: bold;
-    background-color: #FCAA67;
+    background-color: #548687;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
     .tarjeta-producto .btn-pedir:hover {
@@ -153,7 +168,7 @@
 
 .main-contacto__cont1 {
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #ffffc7;
   padding: 20px;
   margin-bottom: 20px; }
   .main-contacto__cont1 p {
@@ -165,14 +180,14 @@
   border-radius: 8px;
   font-size: 24px;
   font-weight: bold;
-  background-color: #FCAA67;
+  background-color: #548687;
   display: flex;
   flex-direction: column;
   justify-content: center; }
   .formulario-contacto .form-outline {
     padding: 10px;
     border-radius: 8px;
-    background-color: #ffffff93; }
+    background-color: #ffffff; }
 
 iframe {
   width: 100%;

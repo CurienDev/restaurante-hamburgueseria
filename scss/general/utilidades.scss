@@ -2,11 +2,24 @@ $colores: (
     color-primario: #548687, 
     color-secundario: #b0413e, 
     color-terciario: #ffffc7, 
-    color-cuaternario: #473335
+    color-cuaternario: #473335,
+    color-blanco: #ffffff,
     );
+$colores-translucid: (
+    color-primario: #5486876f,
+    color-secundario: #b0423e4f, 
+    color-terciario: #ffffc76f, 
+    color-blanco: #ffffff8f,
+);
 
 @each $bk-color-name, $bk-color-valor in $colores{
     .bk-#{$bk-color-name}{
         background-color: $bk-color-valor;
+    }
+};
+
+@each $font-zise in 16px, 24px, 32px, 40px{
+    .font-zise-#{$font-zise}{
+        font-size: $font-zise;
     }
 }
