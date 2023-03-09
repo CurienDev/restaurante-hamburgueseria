@@ -41,8 +41,7 @@
   margin-bottom: 0 !important;
   font-size: 18px;
   margin-bottom: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding: 20px 0; }
   .contenedor-header .nav-link:hover {
     transform: scale(1.25, 1.25); }
   .contenedor-header .navbar-brand:hover {
@@ -71,8 +70,7 @@
     text-align: center; }
   .body-index .img-index {
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     object-fit: cover;
     border-radius: 32px; }
   .body-index .text-index {
@@ -92,8 +90,7 @@
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
 
 .img-nosotros {
-  width: 100%;
-  height: auto; }
+  width: 100%; }
 
 .p-nosotros {
   align-content: center; }
@@ -134,7 +131,6 @@
   border-radius: 8px; }
   .contenedor-videoNM .video-menu {
     width: 100%;
-    height: auto;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
 
@@ -160,6 +156,9 @@
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
     .tarjeta-producto .btn-pedir:hover {
       transform: scale(1.25, 1.25); }
+
+.img-construccion {
+  width: 100%; }
 
 .main-contacto {
   background-image: url("../multimedia/imagenes/bk-main-contacto.jpg");
